@@ -43,6 +43,9 @@ terraform apply
 
 # Given More Time
 
+The biggest missing piece to this setup is a mapping of EKS roles to IAM users in Kubernetes like [this](https://docs.aws.amazon.com/eks/latest/userguide/add-user-role.html). The Backend Engineering team needs this to be able to access the EKS clusters and it could also be accomplished in terraform by calling a eksctl script, however I ran out of time.
+
+Some other improvements include:
 - Configure JIT access for production environments
 - Apply group policies on specific resource groups to avoid hard coded resource names
 - Get more information on the needs of each team and create custom policies for more targeted access (Does Backend Eng need read access to Cloudfront?)
