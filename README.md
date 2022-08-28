@@ -18,7 +18,7 @@ SRE | SRE All | Cloudfront, EKS and Redshift | dev, qa, prod
 
 Finally I assigned IAM Group Policies to each group allowing Engineers access to use their respective resource type including List, Get, Describe and any other action that did not deal with the administration of resources directly. The SRE team was given full access over all three resource types.
 
-This RBAC system ensures that Engineers can access needed resources while limiting extra permissions and preventing priviledge escalation attacks.
+This RBAC system ensures that Engineers can access needed resources while limiting extra permissions and preventing privilege escalation attacks.
 
 # Adding Users
 
