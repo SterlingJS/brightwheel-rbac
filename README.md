@@ -31,6 +31,16 @@ Users can be added to their team's Nonprod and/or Prod group(s) during onboardin
 - Additional environments may be added in the future
 - SREs are expected to create and maintain all infrastructure
 
+# Run the Solution
+
+```terraform
+cd ./brightwheel-rbac
+terraform init
+terraform validate
+terraform plan
+terraform apply
+```
+
 # Given More Time
 
 - Configure JIT access for production environments
